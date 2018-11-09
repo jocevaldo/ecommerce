@@ -1,1 +1,6 @@
-https://github.com/jocevaldo/ecommerce.git
+
+git remote set-url origin https://github.com/jocevaldo/ecommerce.git
+git add --all
+git commit -m 'mensagem'
+git pull origin master
+git push -u origin master
