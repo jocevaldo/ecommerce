@@ -25,7 +25,7 @@ class Model {
 		$fieldName = substr($name, 3, strlen($name));
 
 		//if (in_array($fieldName, $this->fields))
-		{
+		//{
 			
 			switch ($method)
 			{
@@ -40,7 +40,7 @@ class Model {
 
 			}
 
-		}
+		//}
 
 	}
 

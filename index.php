@@ -48,6 +48,7 @@ $app->post('/admin/login', function() {
 	User::login($_POST["login"], $_POST["password"]);
 
 	header("location: /admin");
+
 	exit;
 
 });
@@ -124,7 +125,7 @@ $app->get("/admin/users/:iduser", function($iduser) {
 
 
 $app->post("/admin/users/create", function (){
-
+	
 	User::verifyLogin();
 
 	$user = new User();
